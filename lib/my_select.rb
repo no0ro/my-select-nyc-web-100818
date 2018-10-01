@@ -12,5 +12,6 @@ end
 
 
 my_select(collection) do |x|
-  if x == true 
+  if x == true
+    
   
