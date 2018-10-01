@@ -12,6 +12,10 @@ end
 
 
 my_select(collection) do |x|
-  if x == true
+  condition == true
+  if x == condition
+    new_array
+  else 
+    
     
   
