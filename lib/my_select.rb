@@ -3,9 +3,10 @@ def my_select(collection)
   if block_given?
     i = 0 
     while i < collection.length 
-     
       new_array << yield(collection[i])
-   
+      i += 1 
+    end 
+    new_array 
   else
      nil 
 end
@@ -13,10 +14,10 @@ end
 
 
 my_select(collection) do |x|
-  condition == true
-  if x == condition
-    new_array
-  else 
+  if x == collection[i] 
+  end
+end 
+
     
     
   
